@@ -1,7 +1,7 @@
 import Transport from '@ledgerhq/hw-transport';
 import { chunkBy, pathToBuffer } from './utils';
 import { Address, } from '@herajs/common';
-import { Tx } from '@herajs/client';
+import { Tx } from '@codewritz/herajs-client';
 
 import { Buffer } from 'buffer';
 

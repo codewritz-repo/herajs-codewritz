@@ -9,7 +9,7 @@ import { Account, AccountSpec } from './models/account';
 import { TxBody, SignedTransaction } from './models/transaction';
 import { DEFAULT_CHAIN } from './defaults';
 import { Storage } from './storages/storage';
-import LedgerAppAergo from '@herajs/ledger-hw-app-aergo';
+import LedgerAppAergo from '@codewritz/herajs-ledger-hw-app-aergo';
 
 const DB_VERSION = 1;
 

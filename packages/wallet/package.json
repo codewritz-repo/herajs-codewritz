@@ -1,6 +1,6 @@
 {
   "name": "@codewritz/herajs-wallet",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Codewritz SDK for making Aergo wallet applications",
   "scripts": {
     "type-check": "tsc --noEmit",
@@ -27,7 +27,7 @@
     "@codewritz/herajs-client": "^2.0.2",
     "@herajs/common": "^2.0.1",
     "@herajs/crypto": "^2.0.1",
-    "@herajs/ledger-hw-app-aergo": "^2.0.1",
+    "@codewritz/herajs-ledger-hw-app-aergo": "^2.0.3",
     "@types/google-protobuf": "^3.2.7",
     "@types/hashmap": "^2.0.29",
     "@types/leveldown": "^4.0.0",

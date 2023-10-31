@@ -5,7 +5,7 @@ const assert = chai.assert;
 import 'regenerator-runtime/runtime';
 
 import { Wallet } from '../src/wallet';
-import { Contract } from '@herajs/client';
+import { Contract } from '@codewritz/herajs-client';
 import {
     createIdentity, encryptPrivateKey, encodePrivateKey, privateKeyFromMnemonic, identityFromPrivateKey,
     signTransaction, hashTransaction,

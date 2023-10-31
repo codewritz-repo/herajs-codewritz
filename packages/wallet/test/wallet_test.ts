@@ -5,7 +5,7 @@ const assert = chai.assert;
 import 'regenerator-runtime/runtime';
 
 import { Wallet } from '../src/wallet';
-import { GrpcProvider } from '@herajs/client';
+import { GrpcProvider } from '@codewritz/herajs-client';
 
 describe('Wallet: chain configuration', () => {
     it('uses default chain', () => {

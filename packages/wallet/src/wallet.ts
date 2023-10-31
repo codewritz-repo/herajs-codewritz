@@ -3,13 +3,13 @@ import KeyManager from './managers/key-manager';
 import AccountManager from './managers/account-manager';
 import { TransactionTracker, TransactionManager } from './managers/transaction-manager';
 import NameManager from './managers/name-manager';
-import { AergoClient } from '@herajs/client';
+import { AergoClient } from '@codewritz/herajs-client';
 import { HashMap, isConstructor, Constructor } from './utils';
 import { Account, AccountSpec } from './models/account';
 import { TxBody, SignedTransaction } from './models/transaction';
 import { DEFAULT_CHAIN } from './defaults';
 import { Storage } from './storages/storage';
-import LedgerAppAergo from '@herajs/ledger-hw-app-aergo';
+import LedgerAppAergo from '@codewritz/herajs-ledger-hw-app-aergo';
 
 const DB_VERSION = 1;
 

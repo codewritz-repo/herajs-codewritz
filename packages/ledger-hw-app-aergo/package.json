@@ -1,7 +1,7 @@
 {
-  "name": "@herajs/ledger-hw-app-aergo",
-  "version": "2.0.1",
-  "description": "Ledger Hardware app for Aergo",
+  "name": "@codewritz/herajs-ledger-hw-app-aergo",
+  "version": "2.0.2",
+  "description": "Codewritz Ledger Hardware app for Aergo",
   "main": "dist/herajs-ledger-hw-app-aergo.cjs.js",
   "module": "dist/herajs-ledger-hw-app-aergo.esm.js",
   "browser": "dist/herajs-ledger-hw-app-aergo.umd.js",
@@ -18,16 +18,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aergoio/herajs.git"
+    "url": "git+https://github.com/codewritz-repo/herajs-codewritz.git"
   },
-  "author": "AERGO team and contributors",
+  "author": "Codewritz",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/aergoio/herajs/issues"
-  },
-  "homepage": "https://github.com/aergoio/herajs#readme",
+  "homepage": "https://github.com/codewritz-repo/herajs-codewritz#readme",
   "dependencies": {
-    "@herajs/client": "^2.0.1",
+    "@codewritz/herajs-client": "^2.0.2",
     "@herajs/common": "^2.0.1",
     "@herajs/crypto": "^2.0.1"
   },

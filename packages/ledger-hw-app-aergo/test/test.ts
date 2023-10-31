@@ -10,7 +10,7 @@ const BIP44_ID = 441;
 const WALLET_HDPATH = `m/44'/${BIP44_ID}'/0'/0/`;
 
 import { hash, verifyTxSignature, verifySignature, publicKeyFromAddress, hashTransaction } from '@herajs/crypto';
-import AergoClient, { Tx } from '@codewritz/herajs-client';
+import AergoClient, { Tx } from '@herajs/client';
 import TransportNodeHid from '@ledgerhq/hw-transport-node-hid';
 import Transport from '@ledgerhq/hw-transport';
 import LedgerAppAergo from '../src';
